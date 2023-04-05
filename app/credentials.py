@@ -1,6 +1,6 @@
 
 # We recommend leaving these two variables as below. The DATASOURCE_CONNECTION_STRING contains 9800 PDFs from Arxiv Computer Science publications. Change it if you want to use your own data.
-DATASOURCE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=demodatasetspananya;AccountKey=K9rLf3hFmKN4oZunp3xIIqjlxkyqtOfcdJQgDk65cHSYAY29rvoTx2S1x2t+mJ5tv+3LRN/FES3Q+AStuqGYIg==;EndpointSuffix=blob.core.windows.net/azureml"
+DATASOURCE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=demodatasetspananya;AccountKey=Bakef0mz+YPLHmW5BdXinncXv+a676yckVDfzT5SdEBEdZRYi1f5pcBNHsPb412qG9Mk2Ye+FQg9+ASt3AfEWA==;EndpointSuffix=core.windows.net"
 AZURE_SEARCH_API_VERSION = '2021-04-30-Preview'
 AZURE_OPENAI_API_VERSION = "2023-03-15-preview"
 
