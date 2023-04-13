@@ -76,15 +76,12 @@ params = {'api-version': AZURE_SEARCH_API_VERSION}
 
 with st.expander("Instructions"):
     st.markdown("""
-                Ask a question that you think can be answered with the information in about 10k Arxiv Computer Science publications from 2020-2021.
+                Ask a question that you think can be answered with the information in the CSA-DA Wiki pages.
                 
                 For example:
-                - What are markov chains?
-                - List the authors that talk about Gradient Boosting Machines
-                - What is CLP?
-                - How does random forest work?
-                - Give me an example of a Reinforcement learning problem
-                - What kind of problems Turing Machines solve?
+                - What is the goal of the wiki?
+                - What are the free things at Microsoft?
+                - How can I get access to OpenAI?
                 
                 You will notice that the answers to these questions are diferent from the open ChatGPT, since these papers are the only possible context. This search engine does not look at the open internet to answer these questions. If the context doesn't contain information, the engine will respond: I don't know.
                 
@@ -92,7 +89,7 @@ with st.expander("Instructions"):
                 - Best Answer: GPT model uses, as context. all of the content of the documents coming from Azure Search
                 """)
 
-query = st.text_area("Ask a question to your enterprise data lake", value= "What is CLP?", on_change=clear_submit)
+query = st.text_area("Ask a question to your enterprise data lake", value= "What is the objective of the CSA-DA Wiki?", on_change=clear_submit)
 
 # options = ['English', 'Spanish', 'Portuguese', 'French', 'Russian']
 # selected_language = st.selectbox('Answer Language:', options, index=0)
